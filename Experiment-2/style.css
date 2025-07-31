@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #b8b9bb, #f80505);
+    padding: 20px;
+  }
+  
+  .banking-ui {
+    background-color: rgb(14, 1, 1)
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .balance-box {
+    background-color: #96a467;
+    border: 2px solid #90e90b;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .balance-box h2 {
+    font-size: 1.2rem;
+    color: #0369a1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .balance-box p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0c4a6e;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .btn {
+    flex: 1 1 45%;
+    background-color: #f80aa9;
+    color: rgba(0, 0, 0, 0.988);
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: not-allowed; /* Non-interactive demo */
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e90e50;
+  }
+  
+  @media (max-width: 480px) {
+    .btn {
+      flex: 1 1 100%;
+    }
+  }
